@@ -1,8 +1,19 @@
 {
-  "rewrites": [
-    { "source": "/qr", "destination": "/tools/qr.html", "permanent":"true"},
-{"source":"/t","destination":"/tools", "permanent":"true"},
-    {"source":"/t/:page","destination":"/tools/:page.html", "permanent":"true"}
-    
-  ]
+    "rewrites": [
+        {
+            "source": "/qr",
+            "destination": "/tools/qr.html",
+            "permanent": "true"
+        },
+        {
+            "source": "/t",
+            "destination": "/tools",
+            "permanent": "true"
+        },
+        {
+            "source": "/t/:page",
+            "destination": "/tools/:page.html",
+            "permanent": "true"
+        }
+    ]
 }
