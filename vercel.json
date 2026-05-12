@@ -5,14 +5,11 @@
             "source": "/qr",
             "destination": "/tools/qr.html",
             "permanent": true
-        }
-    ],
-    "redirects": [
+        },
         {
             "source": "/t",
             "destination": "/tools/index.html",
             "permanent": true
         }
-        
     ]
 }
