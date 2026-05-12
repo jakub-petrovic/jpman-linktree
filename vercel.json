@@ -5,11 +5,18 @@
             "source": "/qr",
             "destination": "/tools/qr"
             
-        },
+        }
+    ],
+    "redirects":[
         {
             "source": "/t",
-            "destination": "/tools/"
-            
+            "destination": "/tools/",
+            "permanent":true
+        },
+        {
+            "source": "/t/:page",
+            "destination": "/tools/:page",
+            "permanent":true
         }
     ]
 }
