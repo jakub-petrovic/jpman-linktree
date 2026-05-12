@@ -3,17 +3,17 @@
         {
             "source": "/qr",
             "destination": "/tools/qr.html",
-            "permanent": "true"
+            "permanent": true
         },
         {
             "source": "/t",
-            "destination": "/tools",
-            "permanent": "true"
+            "destination": "/tools/index.html",
+            "permanent": true
         },
         {
             "source": "/t/:page",
             "destination": "/tools/:page.html",
-            "permanent": "true"
+            "permanent": true
         }
     ]
 }
