@@ -1,6 +1,8 @@
 {
   "rewrites": [
-    { "source": "/qr", "destination": "/tools/qr.html" },
-    {"source":"/t/:page","destination":"/tools/:page.html"}
+    { "source": "/qr", "destination": "/tools/qr.html", "permanent":"true"},
+{"source":"/t","destination":"/tools", "permanent":"true"},
+    {"source":"/t/:page","destination":"/tools/:page.html", "permanent":"true"}
+    
   ]
 }
