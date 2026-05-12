@@ -1,4 +1,5 @@
 {
+    "cleanUrls": true,
     "rewrites": [
         {
             "source": "/qr",
@@ -11,11 +12,7 @@
             "source": "/t",
             "destination": "/tools/index.html",
             "permanent": true
-        },
-        {
-            "source": "/t/:page",
-            "destination": "/tools/:page.html",
-            "permanent": true
         }
+        
     ]
 }
