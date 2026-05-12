@@ -3,12 +3,12 @@
     "rewrites": [
         {
             "source": "/qr",
-            "destination": "/tools/qr.html"
+            "destination": "/tools/qr"
             
         },
         {
             "source": "/t",
-            "destination": "/tools/index.html"
+            "destination": "/tools/"
             
         }
     ]
