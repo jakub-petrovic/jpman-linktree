@@ -14,8 +14,8 @@
             "permanent":true
         },
         {
-            "source": "/t/:page",
-            "destination": "/tools/:page",
+            "source": "/t/:page*",
+            "destination": "/tools/:page*",
             "permanent":true
         }
     ]
